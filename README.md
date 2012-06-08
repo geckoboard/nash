@@ -1,6 +1,6 @@
 # Nash
 
-TODO: Write a gem description
+Nash is a Hashie that allows you to create nested Dashes.
 
 ## Installation
 
@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+  $  class Car
+  $    property :engine, :required => true, :class => Engine 
+  $  end
+
+  $  class Engine
+  $    property :crankshaft, :required => true
+  $    property :nitro, :default => false
+  $  end
 
 ## Contributing
 

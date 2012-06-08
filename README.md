@@ -18,14 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-  $  class Car
-  $    property :engine, :required => true, :class => Engine 
-  $  end
+    class Car
+      property :engine, :required => true, :class => Engine 
+    end
 
-  $  class Engine
-  $    property :crankshaft, :required => true
-  $    property :nitro, :default => false
-  $  end
+    class Engine
+      property :crankshaft, :required => true
+      property :nitro, :default => false
+    end
+
+    Car.new "engine" => {"crankshaft" => true, "nitro" => false}
 
 ## Contributing
 

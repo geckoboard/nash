@@ -18,13 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-    class Car
+    class Car < Hashie::Nash
+      class Engine < Hashie::Nash
+        property :crankshaft, :required => true
+        property :nitro, :default => false
+      end
+      
       property :engine, :required => true, :class => Engine 
-    end
-
-    class Engine
-      property :crankshaft, :required => true
-      property :nitro, :default => false
     end
 
     Car.new "engine" => {"crankshaft" => true, "nitro" => false}

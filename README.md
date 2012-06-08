@@ -6,7 +6,7 @@ This allows you to rapidly create complex nested hashes.
 
 Add this line to your application's Gemfile:
 
-    gem 'nash'
+    gem 'nashie'
 
 And then execute:
 

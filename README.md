@@ -27,6 +27,8 @@ Or install it yourself as:
       property :nitro, :default => false
     end
 
+    Car.new "engine" => {"crankshaft" => true, "nitro" => false}
+
 ## Contributing
 
 1. Fork it

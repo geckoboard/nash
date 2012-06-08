@@ -1,5 +1,5 @@
 require "nash/version"
-require 'hashie/hash'
+require 'hashie/dash'
 require 'set'
 
 module Hashie

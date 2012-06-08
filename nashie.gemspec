@@ -15,5 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Nash::VERSION
 
+  gem.add_runtime_dependency "hashie"
   gem.add_development_dependency "rake"
 end

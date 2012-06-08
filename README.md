@@ -1,6 +1,6 @@
-# Nash
-
-Nash is a Hashie that allows you to create nested Dashes.
+# Nashie
+Nashie provides a Hashie that can nest other Hashies.
+This allows you to rapidly create complex nested hashes.
 
 ## Installation
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install nash
+    $ gem install nashie
 
 ## Usage
 

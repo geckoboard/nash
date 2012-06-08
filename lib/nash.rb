@@ -41,7 +41,6 @@ module Hashie
 
           if options.has_key?(:class)
             class_name = options[:class].to_s
-            puts class_properties
             class_properties[property_name] = class_name if options.delete(:class)
             class_eval <<-ACCESSORS
               def #{property_name}(&block)
